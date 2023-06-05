@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.alert-notifications {
+  display: flex;
+  flex-direction: column;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .responsive-container {
+    width: 85%;
+    max-width: 1140px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.notification-heading {
+  color: #0f81e0;
+}
+.notification-heading1 {
+  color: #2dca73;
+}
+.notification-heading3 {
+  color: #ffb800;
+}
+.notification-heading2 {
+  color: #ff0b37;
+}
